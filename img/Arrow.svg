@@ -1,0 +1,8 @@
+<svg width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Arrow">
+<g id="Shape">
+<path d="M7.5 4.5L5.424 1.1784C5.22817 0.865064 4.77184 0.865064 4.576 1.1784L2.5 4.5L7.5 4.5Z" fill="white"/>
+<path d="M7.5 4.5L5.424 1.1784C5.22817 0.865064 4.77183 0.865064 4.576 1.1784L2.5 4.5M7.5 4.5L9.5 4.5M7.5 4.5L2.5 4.5M2.5 4.5L0.5 4.5" stroke="white"/>
+</g>
+</g>
+</svg>

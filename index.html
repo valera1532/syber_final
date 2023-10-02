@@ -1,0 +1,1638 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Lexend+Exa:wght@600&family=Poppins:ital,wght@1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/css/swiper.css" />
+
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Cyber Optimum</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__overlay">
+        <img src="img/header__back.png" alt="" class="header__back" />
+
+        <img src="img/burger.svg" alt="" class="burger__btn mobile" />
+
+        <a href="/" class="logo mobile">
+          <img src="img/logo__mobile.svg" alt="" />
+        </a>
+        <a href="/" class="logo">
+          <img src="img/logo.svg" alt="" />
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Главная</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Продукты</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Роудмап</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Медиа Центр</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="login__btn">
+          <span class="login__btn-text">Войти</span>
+          <!-- <div class="login__btn-icon">
+              <svg
+                class="login__btn-eclipse"
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                viewBox="0 0 50 50"
+                fill="none"
+              >
+                <circle cx="25" cy="24.9998" r="25" fill="#BD00FF" />
+                <circle
+                  cx="25"
+                  cy="24.9998"
+                  r="25"
+                  fill="url(#paint0_radial_135_13027)"
+                />
+                <defs>
+                  <radialGradient
+                    id="paint0_radial_135_13027"
+                    cx="0"
+                    cy="0"
+                    r="1"
+                    gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(25 -0.000244141) rotate(90) scale(47)"
+                  >
+                    <stop stop-color="#FF00E6" />
+                    <stop offset="1" stop-color="#7E00AA" stop-opacity="0.81" />
+                  </radialGradient>
+                </defs>
+              </svg>
+              <svg
+                class="login__btn-arrow"
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="12"
+                viewBox="0 0 32 12"
+                fill="none"
+              >
+                <path
+                  d="M32 5.99976L22 0.226253V11.7733L32 5.99976ZM0 6.99976H23V4.99976H0V6.99976Z"
+                  fill="white"
+                />
+              </svg>
+            </div> -->
+          <svg class="login__btn-loc" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+            fill="none">
+            <g opacity="0.5">
+              <path
+                d="M19.5053 9.94033H18.5384H18.5382V6.53486C18.5381 2.93159 15.6066 0 12.0033 0C8.4001 0 5.46851 2.93159 5.46851 6.53491V9.94038H4.50146C3.73701 9.94038 3.11719 10.5601 3.11719 11.3246V12.1667V21.7737V22.6157C3.11719 23.3803 3.73696 24 4.50146 24H12.0033H19.5053C20.2697 24 20.8895 23.3803 20.8895 22.6157V21.7737V12.1667V11.3246C20.8895 10.5601 20.2697 9.94033 19.5053 9.94033ZM13.4767 19.8559H10.53L11.0574 17.3428C10.5642 17.029 10.2347 16.4809 10.2347 15.853C10.2347 14.8763 11.0266 14.0845 12.0033 14.0845C12.9801 14.0845 13.7718 14.8763 13.7718 15.853C13.7718 16.4809 13.4425 17.029 12.9493 17.3427L13.4767 19.8559ZM16.2064 9.94033H12.0033H7.80044H7.80019V6.53486C7.80019 4.21704 9.6856 2.33169 12.0033 2.33169C14.3211 2.33169 16.2064 4.21709 16.2064 6.53486V9.94033Z"
+                fill="white" />
+            </g>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="burger__menu mobile">
+      <div class="burger__top">
+        <img src="img/close__burger.svg" alt="" class="burger__close" />
+        <a href="/" class="logo mobile">
+          <img src="img/logo__mobile.svg" alt="" />
+        </a>
+      </div>
+      <nav class="menu mobile">
+        <ul class="menu__list">
+          <li class="menu__list-item active">
+            <a href="#" class="menu__list-link">Главная</a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#" class="menu__list-link">Продукты</a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#" class="menu__list-link">Роудмап</a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#" class="menu__list-link">Медиа Центр</a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#" class="menu__list-link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="login__btn mobile">
+        <span class="login__btn-text">Войти</span>
+        <!-- <div class="login__btn-icon">
+            <svg
+              class="login__btn-eclipse"
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              viewBox="0 0 50 50"
+              fill="none"
+            >
+              <circle cx="25" cy="24.9998" r="25" fill="#BD00FF" />
+              <circle
+                cx="25"
+                cy="24.9998"
+                r="25"
+                fill="url(#paint0_radial_135_13027)"
+              />
+              <defs>
+                <radialGradient
+                  id="paint0_radial_135_13027"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(25 -0.000244141) rotate(90) scale(47)"
+                >
+                  <stop stop-color="#FF00E6" />
+                  <stop offset="1" stop-color="#7E00AA" stop-opacity="0.81" />
+                </radialGradient>
+              </defs>
+            </svg>
+            <svg
+              class="login__btn-arrow"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="12"
+              viewBox="0 0 32 12"
+              fill="none"
+            >
+              <path
+                d="M32 5.99976L22 0.226253V11.7733L32 5.99976ZM0 6.99976H23V4.99976H0V6.99976Z"
+                fill="white"
+              />
+            </svg>
+          </div> -->
+        <svg class="login__btn-loc" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+          fill="none">
+          <g opacity="0.5">
+            <path
+              d="M19.5053 9.94033H18.5384H18.5382V6.53486C18.5381 2.93159 15.6066 0 12.0033 0C8.4001 0 5.46851 2.93159 5.46851 6.53491V9.94038H4.50146C3.73701 9.94038 3.11719 10.5601 3.11719 11.3246V12.1667V21.7737V22.6157C3.11719 23.3803 3.73696 24 4.50146 24H12.0033H19.5053C20.2697 24 20.8895 23.3803 20.8895 22.6157V21.7737V12.1667V11.3246C20.8895 10.5601 20.2697 9.94033 19.5053 9.94033ZM13.4767 19.8559H10.53L11.0574 17.3428C10.5642 17.029 10.2347 16.4809 10.2347 15.853C10.2347 14.8763 11.0266 14.0845 12.0033 14.0845C12.9801 14.0845 13.7718 14.8763 13.7718 15.853C13.7718 16.4809 13.4425 17.029 12.9493 17.3427L13.4767 19.8559ZM16.2064 9.94033H12.0033H7.80044H7.80019V6.53486C7.80019 4.21704 9.6856 2.33169 12.0033 2.33169C14.3211 2.33169 16.2064 4.21709 16.2064 6.53486V9.94033Z"
+              fill="white" />
+          </g>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <section class="welcome">
+    <img src="img/welcome__dots.svg" alt="" class="welcome__dots" />
+    <img src="img/welcome__back.jpg" alt="" class="welcome__back" />
+    <img src="img/welcome__back-mobile.png" alt="" class="welcome__back mobile" />
+    <img src="img/welcome__back2-mobile.png" alt="" class="welcome__back2 mobile" />
+    <img src="img/welcome__back2.png" alt="" class="welcome__back2" />
+    <div class="container">
+      <div class="welcome__descr">
+        <h1 class="welcome__title">
+          ВЕБ 3.0 <br />
+          ИИ <br class="mobile" />Экосистема
+        </h1>
+        <h4 class="welcome__subtitle">
+          Измените Свое Финансовое Будущее: <br />
+          Синергия Блокчейна и ИИ открывает уникальные возможности
+        </h4>
+
+        <div class="welcome__btns">
+          <button class="welcome__reg">
+            Зарегестрироваться
+            <!-- <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="51"
+                height="50"
+                viewBox="0 0 51 50"
+                fill="none"
+              >
+                <circle
+                  cx="25.5"
+                  cy="24.9998"
+                  r="24"
+                  stroke="white"
+                  stroke-width="2"
+                />
+                <path
+                  d="M41.5 24.9998L31.5 19.2263V30.7733L41.5 24.9998ZM9.5 25.9998H32.5V23.9998H9.5V25.9998Z"
+                  fill="white"
+                />
+              </svg> -->
+            <svg class="welcome__reg-loc" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+              fill="none">
+              <g opacity="0.5">
+                <path
+                  d="M19.5053 9.94033H18.5384H18.5382V6.53486C18.5381 2.93159 15.6066 0 12.0033 0C8.4001 0 5.46851 2.93159 5.46851 6.53491V9.94038H4.50146C3.73701 9.94038 3.11719 10.5601 3.11719 11.3246V12.1667V21.7737V22.6157C3.11719 23.3803 3.73696 24 4.50146 24H12.0033H19.5053C20.2697 24 20.8895 23.3803 20.8895 22.6157V21.7737V12.1667V11.3246C20.8895 10.5601 20.2697 9.94033 19.5053 9.94033ZM13.4767 19.8559H10.53L11.0574 17.3428C10.5642 17.029 10.2347 16.4809 10.2347 15.853C10.2347 14.8763 11.0266 14.0845 12.0033 14.0845C12.9801 14.0845 13.7718 14.8763 13.7718 15.853C13.7718 16.4809 13.4425 17.029 12.9493 17.3427L13.4767 19.8559ZM16.2064 9.94033H12.0033H7.80044H7.80019V6.53486C7.80019 4.21704 9.6856 2.33169 12.0033 2.33169C14.3211 2.33169 16.2064 4.21709 16.2064 6.53486V9.94033Z"
+                  fill="white" />
+              </g>
+            </svg>
+
+          </button>
+          <button class="welcome__trailer">
+            Смотреть Трейлер
+            <svg xmlns="http://www.w3.org/2000/svg" width="51" height="50" viewBox="0 0 51 50" fill="none">
+              <circle cx="25.5" cy="24.9998" r="24" stroke="white" stroke-width="2" />
+              <path
+                d="M34.25 21.093C36.9167 22.6326 36.9167 26.4816 34.25 28.0212L24.5 33.6504C21.8333 35.19 18.5 33.2655 18.5 30.1863L18.5 18.928C18.5 15.8488 21.8333 13.9243 24.5 15.4639L34.25 21.093Z"
+                fill="white" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="what">
+    <img src="img/what__back.png" alt="" class="what__back" />
+    <img src="img/what__back-mobile.png" alt="" class="what__back mobile" />
+
+    <div class="container">
+      <div class="what__descr">
+        <h2 class="what__title">
+          что такое<br />
+          <img src="img/what__logo.svg" alt="" />
+          <img src="img/what__logo-mobile.svg" alt="" class="mobile" />
+        </h2>
+        <h5 class="what__subtitle">
+          CYBER AI это ВЕБ 3.0 экосистема продуктов построенных на основе
+          искуственного интеллекта.
+        </h5>
+        <div class="what__descr-box">
+          <img src="img/what__descr-back.png" alt="" class="what__box-img" />
+          <h2 class="what__box-title">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+              <path
+                d="M54.5587 23.4182V22.1188C56.2169 21.7309 57.4678 20.2473 57.4678 18.4728C57.4678 16.417 55.7805 14.7297 53.7151 14.7297C51.6593 14.7297 49.9721 16.417 49.9721 18.4728C49.9721 20.1794 51.1163 21.6049 52.6775 22.0509V23.4182C52.6775 24.3491 51.9114 25.1152 50.9805 25.1152H40.5078V26.9964H50.9805C52.949 26.9964 54.5587 25.3867 54.5587 23.4182Z"
+                fill="#FFE500" />
+              <path
+                d="M47.4121 14.6424V13.343C49.0702 12.9551 50.3211 11.4715 50.3211 9.69696C50.3211 7.6412 48.6339 5.96362 46.5684 5.96362C44.5127 5.96362 42.8254 7.6412 42.8254 9.69696C42.8254 11.4036 43.9696 12.8291 45.5308 13.2751V14.6424C45.5308 15.5733 44.7648 16.3394 43.8339 16.3394H40.5078V18.2206H43.8339C45.8024 18.2206 47.4121 16.6109 47.4121 14.6424Z"
+                fill="#FFE500" />
+              <path
+                d="M54.5568 46.9819V45.6825C54.5568 43.714 52.9471 42.114 50.9884 42.114H40.5156V43.9952H50.9884C51.9193 43.9952 52.6853 44.7613 52.6853 45.6922V47.0595C51.1241 47.5152 49.9799 48.9407 49.9799 50.6377C49.9799 52.6934 51.6671 54.3807 53.7229 54.3807C55.7884 54.3807 57.4756 52.6934 57.4756 50.6377C57.4562 48.8534 56.2053 47.3698 54.5568 46.9819Z"
+                fill="#FFE500" />
+              <path
+                d="M45.8296 53.2461V51.9467C45.8296 49.9685 44.2296 48.3782 42.2611 48.3782H40.5156V50.2594H42.2611C43.192 50.2594 43.9581 51.0158 43.9581 51.9564V53.3139C42.4065 53.7794 41.2623 55.1951 41.2623 56.9018C41.2623 58.9576 42.9399 60.6351 44.9956 60.6351C47.0611 60.6351 48.7484 58.9576 48.7484 56.9018C48.729 55.1176 47.4877 53.6339 45.8296 53.2461Z"
+                fill="#FFE500" />
+              <path
+                d="M53.6065 38.2932C55.672 38.2932 57.3593 36.6059 57.3593 34.5405C57.3593 32.4847 55.672 30.8071 53.6065 30.8071C51.8805 30.8071 50.4162 31.9999 50.009 33.6096H40.5156V35.4908H50.009C50.4259 37.1005 51.8708 38.2932 53.6065 38.2932Z"
+                fill="#FFE500" />
+              <path
+                d="M30.4305 3.37451C25.9505 3.37451 22.3141 7.01088 22.3141 11.5685C22.3141 12.0339 22.3917 12.4994 22.4693 12.9551C21.616 12.6448 20.6948 12.4897 19.6863 12.4897C15.2063 12.4897 11.5699 16.126 11.5699 20.6836C11.5699 21.1685 11.6184 21.6339 11.7057 22.0994C11.7154 22.1091 11.7348 22.1188 11.7445 22.1285C13.1214 23.583 14.9929 24.3781 17.0099 24.3781C17.5335 24.3781 17.9505 24.7951 17.9505 25.3188C17.9505 25.8424 17.5335 26.2594 17.0099 26.2594C14.9154 26.2594 12.9469 25.5612 11.3372 24.2909C8.50566 25.5515 6.54688 28.383 6.54688 31.6703C6.54688 35.4618 9.17475 38.7006 12.7335 39.5539C11.9578 40.7951 11.5699 42.1818 11.5699 43.7236C11.5699 48.126 15.2063 51.84 19.6863 51.84C20.0935 51.84 20.5008 51.8012 20.9081 51.743C21.8487 48.8921 24.1275 46.7006 27.0269 45.8957C25.8729 44.7903 25.0196 43.3745 24.5832 41.7842C23.7396 42.4824 22.7117 42.9866 21.5481 43.2097C21.4899 43.2194 21.4317 43.2291 21.3735 43.2291C20.9275 43.2291 20.5396 42.9188 20.4523 42.463C20.3554 41.9491 20.6851 41.4642 21.199 41.3575C22.5275 41.1054 23.6135 40.3297 24.3117 39.2921C24.3505 39.1466 24.4184 39.0206 24.5251 38.9139C25.039 37.983 25.262 36.8775 25.0681 35.7236C24.9808 35.2097 25.3299 34.7248 25.8438 34.6375C26.3578 34.5503 26.8426 34.8994 26.9299 35.4133C27.2014 37.023 26.9008 38.5745 26.1735 39.8836C26.4354 43.6363 29.5384 46.526 33.3784 46.526C33.902 46.526 34.319 46.943 34.319 47.4666C34.319 47.9903 33.902 48.4072 33.3784 48.4072C31.8851 48.4072 30.479 48.0581 29.2378 47.4375C25.8245 47.5539 23.0802 50.0072 22.4596 53.2654C23.1384 57.0666 26.4451 59.9563 30.4402 59.9563C34.9202 59.9563 38.6341 56.32 38.6341 51.84V31.1272C38.4014 31.1466 38.1687 31.1757 37.9457 31.1757C36.7045 31.1757 35.4826 30.846 34.3772 30.2157C33.0778 29.4594 32.0693 28.3345 31.4584 26.9769C30.3723 27.6072 29.1505 27.9369 27.8705 27.9369C27.7445 27.9369 27.6184 27.9369 27.4923 27.9272C26.9687 27.8981 26.5711 27.4618 26.6002 26.9382C26.6293 26.4145 27.0754 26.0266 27.5893 26.046C28.9954 26.1139 30.3529 25.6388 31.4002 24.7078C32.4572 23.7672 33.0778 22.4581 33.1457 21.0327C33.1748 20.5091 33.6305 20.1115 34.1348 20.1406C34.6487 20.1697 35.056 20.606 35.0269 21.1297C34.9396 22.8945 34.222 24.5139 33.0196 25.7551C33.4366 26.9478 34.2317 27.9466 35.3275 28.5769C36.336 29.1588 37.4899 29.3721 38.6438 29.2169V11.5685C38.6245 7.00118 34.9105 3.37451 30.4305 3.37451Z"
+                fill="#FFE500" />
+            </svg>
+            Цель
+          </h2>
+          <span class="what__box-text">
+            Сделать технологии искусственного интеллекта доступными каждому,
+            освободив людей от рутинных задач, тем самым дав человечеству
+            больше свободного времени и делая мир лучше!
+          </span>
+          <h2 class="what__box-title">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+              <g clip-path="url(#clip0_222_3124)">
+                <path
+                  d="M62.316 23.5787C63.2461 23.5787 63.9998 22.825 63.9998 21.8949C63.9998 20.9648 63.2461 20.2105 62.316 20.2105H58.9472V13.4735H62.316C63.2461 13.4735 63.9998 12.7198 63.9998 11.7897C63.9998 10.8596 63.2461 10.1053 62.316 10.1053H58.9472V6.73705C58.9478 6.28989 58.7702 5.86184 58.4544 5.54544C58.1386 5.22965 57.7099 5.05263 57.2634 5.05263H53.8945V1.68442C53.8945 0.754317 53.1408 0 52.2107 0C51.2806 0 50.5263 0.754317 50.5263 1.68442V5.05263H43.7893V1.68442C43.7893 0.754317 43.0356 0 42.1055 0C41.1754 0 40.4211 0.754317 40.4211 1.68442V5.05263H33.684V1.68442C33.684 0.754317 32.9303 0 32.0002 0C31.0701 0 30.3158 0.754317 30.3158 1.68442V5.05263H23.5787V1.68442C23.5787 0.754317 22.825 0 21.8949 0C20.9648 0 20.2105 0.754317 20.2105 1.68442V5.05263H13.4735V1.68442C13.4735 0.754317 12.7198 0 11.7897 0C10.8596 0 10.1053 0.754317 10.1053 1.68442V5.05263H6.73705C6.28989 5.05263 5.86184 5.22965 5.54544 5.54544C5.22965 5.86184 5.05263 6.28989 5.05263 6.73705V10.1053H1.68442C0.754317 10.1053 0 10.8596 0 11.7897C0 12.7198 0.754317 13.4735 1.68442 13.4735H5.05263V20.2105H1.68442C0.754317 20.2105 0 20.9648 0 21.8949C0 22.825 0.754317 23.5787 1.68442 23.5787H5.05263V30.3158H1.68442C0.754317 30.3158 0 31.0701 0 32.0002C0 32.9303 0.754317 33.684 1.68442 33.684H5.05263V40.4211H1.68442C0.754317 40.4211 0 41.1754 0 42.1055C0 43.0356 0.754317 43.7893 1.68442 43.7893H5.05263V50.5263H1.68442C0.754317 50.5263 0 51.2806 0 52.2107C0 53.1408 0.754317 53.8945 1.68442 53.8945H5.05263V57.2634C5.05263 57.7099 5.22965 58.1386 5.54544 58.4544C5.86184 58.7702 6.28989 58.9478 6.73705 58.9472H10.1053V62.316C10.1053 63.2461 10.8596 63.9998 11.7897 63.9998C12.7198 63.9998 13.4735 63.2461 13.4735 62.316V58.9472H20.2105V62.316C20.2105 63.2461 20.9648 63.9998 21.8949 63.9998C22.825 63.9998 23.5787 63.2461 23.5787 62.316V58.9472H30.3158V62.316C30.3158 63.2461 31.0701 63.9998 32.0002 63.9998C32.9303 63.9998 33.684 63.2461 33.684 62.316V58.9472H40.4211V62.316C40.4211 63.2461 41.1754 63.9998 42.1055 63.9998C43.0356 63.9998 43.7893 63.2461 43.7893 62.316V58.9472H50.5263V62.316C50.5263 63.2461 51.2806 63.9998 52.2107 63.9998C53.1408 63.9998 53.8945 63.2461 53.8945 62.316V58.9472H57.2634C57.7099 58.9478 58.1386 58.7702 58.4544 58.4544C58.7702 58.1386 58.9478 57.7099 58.9472 57.2634V53.8945H62.316C63.2461 53.8945 63.9998 53.1408 63.9998 52.2107C63.9998 51.2806 63.2461 50.5263 62.316 50.5263H58.9472V43.7893H62.316C63.2461 43.7893 63.9998 43.0356 63.9998 42.1055C63.9998 41.1754 63.2461 40.4211 62.316 40.4211H58.9472V33.684H62.316C63.2461 33.684 63.9998 32.9303 63.9998 32.0002C63.9998 31.0701 63.2461 30.3158 62.316 30.3158H58.9472V23.5787H62.316ZM11.7897 50.5263V13.4735C11.7891 13.0269 11.9667 12.5983 12.2825 12.2825C12.5983 11.9667 13.0269 11.7891 13.4735 11.7897H50.5263C50.9729 11.7891 51.4015 11.9667 51.7173 12.2825C52.0337 12.5983 52.2107 13.0269 52.2107 13.4735V50.5263C52.2107 50.9729 52.0337 51.4015 51.7173 51.7173C51.4015 52.0337 50.9729 52.2107 50.5263 52.2107H13.4735C13.0269 52.2107 12.5983 52.0337 12.2825 51.7173C11.9667 51.4015 11.7891 50.9729 11.7897 50.5263Z"
+                  fill="#FFE500" />
+                <path
+                  d="M15.1562 48.842H48.8403V15.158H15.1562V48.842ZM35.3668 23.5788C35.3668 23.1323 35.5438 22.7036 35.8596 22.3878C36.176 22.072 36.604 21.8944 37.0512 21.895H40.4194C41.3495 21.895 42.1038 22.6487 42.1038 23.5788C42.1038 24.5089 41.3495 25.2632 40.4194 25.2632V38.7367C41.3495 38.7367 42.1038 39.491 42.1038 40.4211C42.1038 41.3512 41.3495 42.1055 40.4194 42.1055H37.0512C36.1211 42.1055 35.3668 41.3512 35.3668 40.4211C35.3668 39.491 36.1211 38.7367 37.0512 38.7367V25.2632C36.604 25.2632 36.176 25.0862 35.8596 24.7704C35.5438 24.454 35.3668 24.026 35.3668 23.5788ZM21.8933 26.9476C21.8933 24.1567 24.155 21.895 26.9459 21.895C29.7362 21.895 31.9986 24.1567 31.9986 26.9476V40.4211C31.9986 41.3512 31.2442 42.1055 30.3141 42.1055C29.384 42.1055 28.6297 41.3512 28.6297 40.4211V35.3685H25.2615V40.4211C25.2615 41.3512 24.5072 42.1055 23.5771 42.1055C22.647 42.1055 21.8933 41.3512 21.8933 40.4211V26.9476Z"
+                  fill="#FFE500" />
+                <path
+                  d="M28.6338 26.9476C28.6338 26.0175 27.8801 25.2632 26.95 25.2632C26.0199 25.2632 25.2656 26.0175 25.2656 26.9476V32.0002H28.6338V26.9476Z"
+                  fill="#FFE500" />
+              </g>
+              <defs>
+                <clipPath id="clip0_222_3124">
+                  <rect width="64" height="64" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            Миссия
+          </h2>
+          <span class="what__box-text last">
+            Вместе мы создадим более справедливый мир, где каждый имеет равные
+            возможности для развития и процветания. Мы пойдем дальше
+            сегодняшнего дня и предоставим каждому возможность заработать и
+            принять участие в создании лучшего будущего для всех.
+          </span>
+          <svg class="what__box-arrow" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"
+            fill="none">
+            <circle cx="25" cy="25" r="24" stroke="white" stroke-width="2" />
+            <path d="M41 25L31 19.2265V30.7735L41 25ZM9 26H32V24H9V26Z" fill="white" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="free">
+    <img src="img/free__back.png" alt="" class="free__back" />
+    <img src="img/free__back-mobile.png" alt="" class="free__back mobile" />
+    <div class="container free__inner">
+      <div class="free__box">
+        <h2 class="free__title">Розыгрыш</h2>
+        <h4 class="free__subtitle">
+          УЧАСТВУЙ В РОЗЫГРЫШЕ И ВЫИГРАЙ <y>MERCEDES AMG G63</y> И
+          <y>$100,000</y> В ТОКЕНАХ CYBER AI!
+        </h4>
+        <p class="free__text">
+          Мы рады объявить о самом захватывающем розыгрыше этого года! У вас
+          есть уникальная возможность выиграть роскошный Mercedes AMG G 63 и
+          невероятные $100,000 в токенах CYBER AI. Это ваш шанс обрести
+          легендарный автомобиль и сделать первые шаги к будущему с
+          технологическими инновациями.
+        </p>
+        <ul class="free__list">
+          <li class="free__item">
+            <span class="free__item-num">13</span>
+            <p class="free__item-date">дней</p>
+          </li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="101" viewBox="0 0 8 101" fill="none">
+            <g filter="url(#filter0_f_318_68308)">
+              <rect x="3.3125" y="3.5" width="0.815617" height="93.796" fill="#FFE500" />
+            </g>
+            <rect x="3.3125" y="3.5" width="0.815617" height="93.796" fill="#FFE500" />
+            <defs>
+              <filter id="filter0_f_318_68308" x="0.0500321" y="0.237532" width="7.34134" height="100.321"
+                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                <feGaussianBlur stdDeviation="1.63123" result="effect1_foregroundBlur_318_68308" />
+              </filter>
+            </defs>
+          </svg>
+          <li class="free__item">
+            <span class="free__item-num">14</span>
+            <p class="free__item-date">часов</p>
+          </li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="101" viewBox="0 0 8 101" fill="none">
+            <g filter="url(#filter0_f_318_68308)">
+              <rect x="3.3125" y="3.5" width="0.815617" height="93.796" fill="#FFE500" />
+            </g>
+            <rect x="3.3125" y="3.5" width="0.815617" height="93.796" fill="#FFE500" />
+            <defs>
+              <filter id="filter0_f_318_68308" x="0.0500321" y="0.237532" width="7.34134" height="100.321"
+                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                <feGaussianBlur stdDeviation="1.63123" result="effect1_foregroundBlur_318_68308" />
+              </filter>
+            </defs>
+          </svg>
+          <li class="free__item">
+            <span class="free__item-num">09</span>
+            <p class="free__item-date">минут</p>
+          </li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="101" viewBox="0 0 8 101" fill="none">
+            <g filter="url(#filter0_f_318_68308)">
+              <rect x="3.3125" y="3.5" width="0.815617" height="93.796" fill="#FFE500" />
+            </g>
+            <rect x="3.3125" y="3.5" width="0.815617" height="93.796" fill="#FFE500" />
+            <defs>
+              <filter id="filter0_f_318_68308" x="0.0500321" y="0.237532" width="7.34134" height="100.321"
+                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                <feGaussianBlur stdDeviation="1.63123" result="effect1_foregroundBlur_318_68308" />
+              </filter>
+            </defs>
+          </svg>
+          <li class="free__item">
+            <span class="free__item-num">48</span>
+            <p class="free__item-date">секунд</p>
+          </li>
+        </ul>
+        <button class="free__btn">
+          Участвовать
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+            <g clip-path="url(#clip0_307_600)">
+              <path
+                d="M29.9131 6.73286H27.5837C27.891 6.24661 28.0938 5.7008 28.1516 5.12355C28.3362 3.27874 27.3647 1.62499 25.7106 0.891801C24.1903 0.217863 22.4817 0.493363 21.2514 1.60924L18.3101 4.27486C17.7373 3.64836 16.9139 3.25461 16 3.25461C15.0845 3.25461 14.2598 3.64961 13.6868 4.27805L10.7418 1.60893C9.5095 0.493051 7.80163 0.218613 6.28194 0.892176C4.62831 1.62543 3.65656 3.27974 3.84181 5.12449C3.89975 5.7013 4.10238 6.24686 4.40956 6.73286H2.08694C0.934312 6.73286 0 7.66724 0 8.8198V11.9502C0 12.5265 0.467187 12.9937 1.0435 12.9937H30.9566C31.5328 12.9937 32.0001 12.5266 32.0001 11.9502V8.8198C32 7.66724 31.0657 6.73286 29.9131 6.73286ZM12.8696 6.38505V6.73286H7.96063C6.66363 6.73286 5.64288 5.52374 5.96681 4.17336C6.1095 3.57868 6.53875 3.07174 7.09394 2.81511C7.85631 2.46274 8.70081 2.57586 9.34112 3.15543L12.8704 6.3543C12.8702 6.36461 12.8696 6.37474 12.8696 6.38505ZM26.0809 4.84649C26.0031 5.93105 25.0234 6.73299 23.9361 6.73299H19.1304V6.38518C19.1304 6.37286 19.1297 6.36068 19.1296 6.34836C19.9291 5.62361 21.6635 4.05161 22.6042 3.19893C23.1388 2.71436 23.8869 2.48818 24.5784 2.69443C25.5707 2.99043 26.1534 3.8343 26.0809 4.84649Z"
+                fill="white" />
+              <path d="M2.08594 15.0807V30.3851C2.08594 31.5377 3.02025 32.472 4.17287 32.472H13.912V15.0807H2.08594Z"
+                fill="white" />
+              <path d="M18.0859 15.0807V32.472H27.8251C28.9777 32.472 29.912 31.5377 29.912 30.3851V15.0807H18.0859Z"
+                fill="white" />
+            </g>
+            <defs>
+              <clipPath id="clip0_307_600">
+                <rect width="32" height="32" fill="white" transform="translate(0 0.5)" />
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
+        <p class="free__text--small">
+          Розыгрыш состоится 11 сентября 2023 года в 18: 00 по Дубай, во время
+          официального вебинара компании (следите за анонсом вебинара в
+          официальных социальных сетях CYBER AI).
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="products">
+    <img src="img/products__back.png" alt="" class="products__back" />
+    <img src="img/products__back-mobile.png" alt="" class="products__back mobile" />
+    <div class="container">
+      <h2 class="products__title">
+        <img src="img/products__logo.svg" alt="" />
+        <img src="img/what__logo-mobile.svg" alt="" class="mobile" />
+        <br />
+        Продукты компании
+      </h2>
+      <ul class="products__list">
+        <div class="products__item-box">
+          <li class="products__item">
+            <img src="img/products__item-back.png" alt="" class="products__item-back" />
+            <img src="img/products__item-back--mobile.png" alt="" class="products__item-back mobile" />
+
+            <img src="img/products__robot1.png" alt="" class="products__item-content" />
+            <div class="products__item-descr">
+              <div class="products__item-status">Лайв</div>
+              <h5 class="products__item-title">CYBER TRADE</h5>
+              <p class="products__item-text">
+                Более двух лет разработки позволили создать ИИ алгоритм
+                способный оперировать на рынке криптовалют, генеририруя
+                доходность от 5% до 30% в день..
+              </p>
+              <a href="#" class="products__item-link">
+                <button class="products__item-btn">
+                  Начать зарабатывать
+
+                  <svg class="products__btn-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                    viewBox="0 0 40 40" fill="none">
+                    <circle cx="20" cy="20" r="20" fill="#BD00FF" />
+                    <circle cx="20" cy="20" r="20" fill="url(#paint0_radial_222_2940)" />
+                    <path d="M32 20L22 14.2265V25.7735L32 20ZM6 21H23V19H6V21Z" fill="white" />
+                    <defs>
+                      <radialGradient id="paint0_radial_222_2940" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                        gradientTransform="translate(20) rotate(90) scale(37.6)">
+                        <stop stop-color="#FF00E6" />
+                        <stop offset="1" stop-color="#7E00AA" stop-opacity="0.81" />
+                      </radialGradient>
+                    </defs>
+                  </svg>
+                </button>
+              </a>
+            </div>
+          </li>
+        </div>
+        <div class="products__item-box">
+          <li class="products__item">
+            <img src="img/products__item-back.png" alt="" class="products__item-back" />
+            <img src="img/products__item-back--mobile.png" alt="" class="products__item-back mobile" /><img
+              src="img/products__robot2.png" alt="" class="products__item-content2" />
+            <div class="products__item-descr">
+              <div class="products__item-status">Альфа</div>
+              <h5 class="products__item-title">CYBER SAFE</h5>
+              <p class="products__item-text">
+                Система обнаружения мошенничества на основе искусственного
+                интеллекта. ИИ использует данные о транзакциях для обнаружения
+                мошеннической активности в режиме реального времени.
+                Преимущества включают улучшенную безопасность и сокращение
+                финансовых потерь как для компаний, так и для клиентов.
+              </p>
+              <button class="products__item-btn">
+                Скоро
+                <svg class="products__item-loc" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none">
+                  <g opacity="0.5">
+                    <path
+                      d="M19.5053 9.94033H18.5384H18.5382V6.53486C18.5381 2.93159 15.6066 0 12.0033 0C8.4001 0 5.46851 2.93159 5.46851 6.53491V9.94038H4.50146C3.73701 9.94038 3.11719 10.5601 3.11719 11.3246V12.1667V21.7737V22.6157C3.11719 23.3803 3.73696 24 4.50146 24H12.0033H19.5053C20.2697 24 20.8895 23.3803 20.8895 22.6157V21.7737V12.1667V11.3246C20.8895 10.5601 20.2697 9.94033 19.5053 9.94033ZM13.4767 19.8559H10.53L11.0574 17.3428C10.5642 17.029 10.2347 16.4809 10.2347 15.853C10.2347 14.8763 11.0266 14.0845 12.0033 14.0845C12.9801 14.0845 13.7718 14.8763 13.7718 15.853C13.7718 16.4809 13.4425 17.029 12.9493 17.3427L13.4767 19.8559ZM16.2064 9.94033H12.0033H7.80044H7.80019V6.53486C7.80019 4.21704 9.6856 2.33169 12.0033 2.33169C14.3211 2.33169 16.2064 4.21709 16.2064 6.53486V9.94033Z"
+                      fill="white" />
+                  </g>
+                </svg>
+              </button>
+            </div>
+          </li>
+        </div>
+        <div class="products__item-box">
+          <li class="products__item">
+            <img src="img/products__item-back.png" alt="" class="products__item-back" />
+            <img src="img/products__item-back--mobile.png" alt="" class="products__item-back mobile" /><img
+              src="img/products__robot3.png" alt="" class="products__item-content3" />
+            <div class="products__item-descr">
+              <div class="products__item-status">Бета</div>
+              <h5 class="products__item-title">CYBER MATE</h5>
+              <p class="products__item-text">
+                Чат-бот с улучшенным ИИ для обслуживания клиентов. Этот
+                продукт будет использовать обработку естественного языка и
+                алгоритмы машинного обучения для предоставления поддержки
+                клиентам в реальном времени.
+              </p>
+              <button class="products__item-btn">
+                Скоро
+                <svg class="products__item-loc" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none">
+                  <g opacity="0.5">
+                    <path
+                      d="M19.5053 9.94033H18.5384H18.5382V6.53486C18.5381 2.93159 15.6066 0 12.0033 0C8.4001 0 5.46851 2.93159 5.46851 6.53491V9.94038H4.50146C3.73701 9.94038 3.11719 10.5601 3.11719 11.3246V12.1667V21.7737V22.6157C3.11719 23.3803 3.73696 24 4.50146 24H12.0033H19.5053C20.2697 24 20.8895 23.3803 20.8895 22.6157V21.7737V12.1667V11.3246C20.8895 10.5601 20.2697 9.94033 19.5053 9.94033ZM13.4767 19.8559H10.53L11.0574 17.3428C10.5642 17.029 10.2347 16.4809 10.2347 15.853C10.2347 14.8763 11.0266 14.0845 12.0033 14.0845C12.9801 14.0845 13.7718 14.8763 13.7718 15.853C13.7718 16.4809 13.4425 17.029 12.9493 17.3427L13.4767 19.8559ZM16.2064 9.94033H12.0033H7.80044H7.80019V6.53486C7.80019 4.21704 9.6856 2.33169 12.0033 2.33169C14.3211 2.33169 16.2064 4.21709 16.2064 6.53486V9.94033Z"
+                      fill="white" />
+                  </g>
+                </svg>
+              </button>
+            </div>
+          </li>
+        </div>
+        <div class="products__item-box">
+          <li class="products__item">
+            <img src="img/products__item-back.png" alt="" class="products__item-back" />
+            <img src="img/products__item-back--mobile.png" alt="" class="products__item-back mobile" /><img
+              src="img/products__robot4.png" alt="" class="products__item-content4" />
+            <div class="products__item-descr">
+              <div class="products__item-status">Пре-Бета</div>
+              <h5 class="products__item-title">CYBER VISION</h5>
+              <p class="products__item-text">
+                ИИ для управления личными финансами. Преимущества включают
+                улучшенное управление финансами и увеличенные сбережения,
+                персональные инвестиционные рекомендации, основанные на
+                индивидуальных возможностях, стране и городе клиента. Также
+                прогнозирование в зависимости от доходов и расходов клиента в
+                краткосрочной и долгосрочной перспективе.
+              </p>
+              <button class="products__item-btn">
+                Скоро
+                <svg class="products__item-loc" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none">
+                  <g opacity="0.5">
+                    <path
+                      d="M19.5053 9.94033H18.5384H18.5382V6.53486C18.5381 2.93159 15.6066 0 12.0033 0C8.4001 0 5.46851 2.93159 5.46851 6.53491V9.94038H4.50146C3.73701 9.94038 3.11719 10.5601 3.11719 11.3246V12.1667V21.7737V22.6157C3.11719 23.3803 3.73696 24 4.50146 24H12.0033H19.5053C20.2697 24 20.8895 23.3803 20.8895 22.6157V21.7737V12.1667V11.3246C20.8895 10.5601 20.2697 9.94033 19.5053 9.94033ZM13.4767 19.8559H10.53L11.0574 17.3428C10.5642 17.029 10.2347 16.4809 10.2347 15.853C10.2347 14.8763 11.0266 14.0845 12.0033 14.0845C12.9801 14.0845 13.7718 14.8763 13.7718 15.853C13.7718 16.4809 13.4425 17.029 12.9493 17.3427L13.4767 19.8559ZM16.2064 9.94033H12.0033H7.80044H7.80019V6.53486C7.80019 4.21704 9.6856 2.33169 12.0033 2.33169C14.3211 2.33169 16.2064 4.21709 16.2064 6.53486V9.94033Z"
+                      fill="white" />
+                  </g>
+                </svg>
+              </button>
+            </div>
+          </li>
+        </div>
+        <div class="products__item-box">
+          <li class="products__item">
+            <img src="img/products__item-back.png" alt="" class="products__item-back" />
+            <img src="img/products__item-back--mobile.png" alt="" class="products__item-back mobile" /><img
+              src="img/products__robot5.png" alt="" class="products__item-content5" />
+            <div class="products__item-descr">
+              <div class="products__item-status">Бета</div>
+              <h5 class="products__item-title">Cyber Analytica</h5>
+              <p class="products__item-text">
+                Аналитическая платформа на основе исскуственного интеллекта
+                позволяющая пользователям принимать инвестиционные решеня
+                основываясь на анализе массивов данных, что экспоненциально
+                увеличивает количество прибыльных сделок и позволяет более
+                обьективно оценивать рынок.
+              </p>
+              <button class="products__item-btn">
+                Скоро
+                <svg class="products__item-loc" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none">
+                  <g opacity="0.5">
+                    <path
+                      d="M19.5053 9.94033H18.5384H18.5382V6.53486C18.5381 2.93159 15.6066 0 12.0033 0C8.4001 0 5.46851 2.93159 5.46851 6.53491V9.94038H4.50146C3.73701 9.94038 3.11719 10.5601 3.11719 11.3246V12.1667V21.7737V22.6157C3.11719 23.3803 3.73696 24 4.50146 24H12.0033H19.5053C20.2697 24 20.8895 23.3803 20.8895 22.6157V21.7737V12.1667V11.3246C20.8895 10.5601 20.2697 9.94033 19.5053 9.94033ZM13.4767 19.8559H10.53L11.0574 17.3428C10.5642 17.029 10.2347 16.4809 10.2347 15.853C10.2347 14.8763 11.0266 14.0845 12.0033 14.0845C12.9801 14.0845 13.7718 14.8763 13.7718 15.853C13.7718 16.4809 13.4425 17.029 12.9493 17.3427L13.4767 19.8559ZM16.2064 9.94033H12.0033H7.80044H7.80019V6.53486C7.80019 4.21704 9.6856 2.33169 12.0033 2.33169C14.3211 2.33169 16.2064 4.21709 16.2064 6.53486V9.94033Z"
+                      fill="white" />
+                  </g>
+                </svg>
+              </button>
+            </div>
+          </li>
+        </div>
+        <div class="products__item-box">
+          <li class="products__item">
+            <img src="img/products__item-back.png" alt="" class="products__item-back" />
+            <img src="img/products__item-back--mobile.png" alt="" class="products__item-back mobile" /><img
+              src="img/products__robot6.png" alt="" class="products__item-content6" />
+            <div class="products__item-descr">
+              <div class="products__item-status">Пре-Альфа</div>
+              <h5 class="products__item-title">CYBER PAY</h5>
+              <p class="products__item-text">
+                Блокчейн второго уровня на основе Ethereum Virtual Machine,
+                создается для того что бы приложения на основе искуссвенного
+                интеллекта могли в полной мерее расскрывать свой потенциал на
+                блкочейне. На сегодняшний день в мире нету специализрованных
+                блокчейнов которые имели идеальную совместимость со стэком
+                языков програмирования для ИИ, CYBER PAY стремиться занять эту
+                нишу!
+              </p>
+              <button class="products__item-btn">
+                Скоро
+                <svg class="products__item-loc" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none">
+                  <g opacity="0.5">
+                    <path
+                      d="M19.5053 9.94033H18.5384H18.5382V6.53486C18.5381 2.93159 15.6066 0 12.0033 0C8.4001 0 5.46851 2.93159 5.46851 6.53491V9.94038H4.50146C3.73701 9.94038 3.11719 10.5601 3.11719 11.3246V12.1667V21.7737V22.6157C3.11719 23.3803 3.73696 24 4.50146 24H12.0033H19.5053C20.2697 24 20.8895 23.3803 20.8895 22.6157V21.7737V12.1667V11.3246C20.8895 10.5601 20.2697 9.94033 19.5053 9.94033ZM13.4767 19.8559H10.53L11.0574 17.3428C10.5642 17.029 10.2347 16.4809 10.2347 15.853C10.2347 14.8763 11.0266 14.0845 12.0033 14.0845C12.9801 14.0845 13.7718 14.8763 13.7718 15.853C13.7718 16.4809 13.4425 17.029 12.9493 17.3427L13.4767 19.8559ZM16.2064 9.94033H12.0033H7.80044H7.80019V6.53486C7.80019 4.21704 9.6856 2.33169 12.0033 2.33169C14.3211 2.33169 16.2064 4.21709 16.2064 6.53486V9.94033Z"
+                      fill="white" />
+                  </g>
+                </svg>
+              </button>
+            </div>
+          </li>
+        </div>
+      </ul>
+    </div>
+  </section>
+
+  <section class="token">
+    <img src="img/token__back.png" alt="" class="token__back" />
+    <img src="img/token__back-mobile.png" alt="" class="token__back mobile" />
+    <div class="container">
+      <div class="token__descr">
+        <h2 class="token__title">
+          Токен
+          <img src="img/token__logo.svg" alt="" class="token__logo" />
+        </h2>
+        <p class="token__text first">
+          Токен CYBER AI - это ключ к современной эры кибербезопасности, где
+          искусственный интеллект и блокчейн сливаются вместе, чтобы
+          обеспечить защиту и инновации на новом уровне.
+        </p>
+        <p class="token__text">
+          Этот токен стоит у истоков революции в области безопасности данных,
+          предоставляя уникальные возможности и привлекательные перспективы
+          для инвесторов и технологических энтузиастов.
+        </p>
+        <button class="token__btn">
+          Инвестировать в Cyber AI
+          <svg width="61" height="60" viewBox="0 0 61 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="30.5" cy="30" r="30" fill="#BD00FF" />
+            <circle cx="30.5" cy="30" r="30" fill="url(#paint0_radial_309_3163)" />
+            <path d="M48.4961 30L38.4961 24.2265V35.7735L48.4961 30ZM9.49609 31H39.4961V29H9.49609V31Z" fill="white" />
+            <defs>
+              <radialGradient id="paint0_radial_309_3163" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(30.5) rotate(90) scale(56.4)">
+                <stop stop-color="#FF00E6" />
+                <stop offset="1" stop-color="#7E00AA" stop-opacity="0.81" />
+              </radialGradient>
+            </defs>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="why">
+    <div class="container">
+      <div class="why__descr">
+        <div class="why__descr-start">
+          <h2 class="why__title">
+            Почему <br class="mobile" />выбирают нас?
+          </h2>
+          <h5 class="why__subtitle">
+            Cyber AI стремиться стать лидером на рынке потребительского
+            Искуственного Интеллекта.
+          </h5>
+        </div>
+        <button class="why__descr-btn">
+          ПРИСОЕДИНИТЬСЯ
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+            <circle cx="25" cy="25" r="24" stroke="white" stroke-width="2" />
+            <path d="M41 25L31 19.2265V30.7735L41 25ZM9 26H32V24H9V26Z" fill="white" />
+          </svg>
+        </button>
+      </div>
+      <ul class="why__list">
+        <!-- <div class="why__row-main">
+            <div class="why__row-list">
+
+              <div class="why__row">
+                <div class="why__row-content">
+
+                  <li class="why__item">
+                    <img
+                      src="img/why__back1-1.png"
+                      alt=""
+                      class="why__item-back1"
+                    /><img src="img/why__back1-2.png" alt="" class="why__item-back2" />
+                    <h5 class="why__item-title">ИИ открывает уникальные возможности</h5>
+                  </li>
+                  <li class="why__item">
+                    <img
+                      src="img/why__back2-1.png"
+                      alt=""
+                      class="why__item-back1"
+                    /><img src="img/why__back2-2.png" alt="" class="why__item-back2" />
+                    <h5 class="why__item-title">
+                      средства партнеров защищены законодательством великобритании
+                    </h5>
+                  </li>
+                </div>
+              </div>
+              <div class="why__row">
+                <div class="why__row-content">
+
+                  <li class="why__item">
+                    <img
+                      src="img/why__back4-1.png"
+                      alt=""
+                      class="why__item-back1"
+                    /><img src="img/why__back4-2.png" alt="" class="why__item-back2" />
+                    <h5 class="why__item-title">
+                      доходность выше рынка зарабатывайте от 5% до 30% в день
+                    </h5>
+                  </li>
+                  <li class="why__item">
+                    <img
+                      src="img/why__back5-1.png"
+                      alt=""
+                      class="why__item-back1"
+                    /><img src="img/why__back5-2.png" alt="" class="why__item-back2" />
+                    <img src="img/why__back5-3.png" alt="" class="why__item-back3" />
+                    <h5 class="why__item-title">
+                      с помощью ии мы минимизируем ошибки связанные с человеческим
+                      фактором
+                    </h5>
+                  </li>
+                </div>
+              </div>
+            </div>
+            <li class="why__item">
+              <img
+                src="img/why__back3-1.png"
+                alt=""
+                class="why__item-back1"
+              /><img src="img/why__back3-2.png" alt="" class="why__item-back2" />
+              <h5 class="why__item-title">
+                мы принимаем решения на основе Аналитики огромных массивов данных
+              </h5>
+            </li>
+          </div> -->
+
+        <li class="why__item">
+          <img src="img/why__back1-1.png" alt="" class="why__item-back1" /><img src="img/why__back1-2.png" alt=""
+            class="why__item-back2" />
+          <h5 class="why__item-title">ИИ открывает уникальные возможности</h5>
+        </li>
+        <li class="why__item">
+          <img src="img/why__back2-1.png" alt="" class="why__item-back1" /><img src="img/why__back2-2.png" alt=""
+            class="why__item-back2" />
+          <h5 class="why__item-title">
+            средства партнеров защищены законодательством великобритании
+          </h5>
+        </li>
+        <li class="why__item">
+          <img src="img/why__back3-1.png" alt="" class="why__item-back1" /><img src="img/why__back3-2.png" alt=""
+            class="why__item-back2" />
+          <h5 class="why__item-title">
+            мы принимаем решения на основе Аналитики огромных массивов данных
+          </h5>
+        </li>
+        <li class="why__item">
+          <img src="img/why__back4-1.png" alt="" class="why__item-back1" /><img src="img/why__back4-2.png" alt=""
+            class="why__item-back2" />
+          <h5 class="why__item-title">
+            доходность выше рынка зарабатывайте от 5% до 30% в день
+          </h5>
+        </li>
+        <li class="why__item">
+          <img src="img/why__back5-1.png" alt="" class="why__item-back1" /><img src="img/why__back5-2.png" alt=""
+            class="why__item-back2" />
+          <img src="img/why__back5-3.png" alt="" class="why__item-back3" />
+          <h5 class="why__item-title">
+            с помощью ии мы минимизируем ошибки связанные с человеческим
+            фактором
+          </h5>
+        </li>
+        <li class="why__item">
+          <img src="img/why__back6-1.png" alt="" class="why__item-back1" /><img src="img/why__back6-2.png" alt=""
+            class="why__item-back2" />
+          <img src="img/why__back6-3.png" alt="" class="why__item-back3" />
+          <img src="img/why__item-back6-2--mobile.png" alt="" class="why__item-back2 mobile" />
+          <img src="img/why__item-back6-3--mobile.png" alt="" class="why__item-back3 mobile" />
+          <h5 class="why__item-title">
+            ежедневный торговый доход <br />выводите прибыль каждые 24 часа
+          </h5>
+        </li>
+        <li class="why__item">
+          <img src="img/why__back7-1.png" alt="" class="why__item-back1" /><img src="img/why__back7-2.png" alt=""
+            class="why__item-back2" />
+          <h5 class="why__item-title">
+            более 2.000.000 долларов США - инвестиции в разработку продуктов
+            компании
+          </h5>
+        </li>
+        <li class="why__item">
+          <img src="img/why__back8-1.png" alt="" class="why__item-back1" /><img src="img/why__back8-2.png" alt=""
+            class="why__item-back2" />
+          <h5 class="why__item-title">Рынок ии растет взрыВными темпами</h5>
+        </li>
+        <li class="why__item">
+          <img src="img/why__back9-1.png" alt="" class="why__item-back1" /><img src="img/why__back9-2.png" alt=""
+            class="why__item-back2" />
+          <h5 class="why__item-title">диверсификация направлений компании</h5>
+        </li>
+        <li class="why__item">
+          <img src="img/why__back10-1.png" alt="" class="why__item-back1" /><img src="img/why__back10-2.png" alt=""
+            class="why__item-back2" />
+          <h5 class="why__item-title">команда экспертов мирового уровня</h5>
+        </li>
+        <li class="why__item">
+          <img src="img/why__back11-1.png" alt="" class="why__item-back1" /><img src="img/why__back11-2.png" alt=""
+            class="why__item-back2" />
+          <h5 class="why__item-title">автоматизация монотонных процессов</h5>
+        </li>
+      </ul>
+      <div class="why__btn mobile">
+        <button class="why__descr-btn mobile">
+          ПРИСОЕДИНИТЬСЯ
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+            <circle cx="25" cy="25" r="24" stroke="white" stroke-width="2" />
+            <path d="M41 25L31 19.2265V30.7735L41 25ZM9 26H32V24H9V26Z" fill="white" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="invest">
+    <img src="img/invest__back.png" alt="" class="invest__back" />
+    <img src="img/invest__back-mobile.png" alt="" class="invest__back mobile" />
+    <div class="container">
+      <h2 class="invest__title">ИНВЕСТИЦИОННЫЕ возможности</h2>
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="img/slider__back.png" alt="" class="slider__back" />
+          <img src="img/slider__back-mobile.png" alt="" class="slider__back mobile" />
+          <div class="slider__start">
+            <h2 class="slider__title">
+              <img src="img/slider-img.png" alt="" />
+              Кибер Пакет
+            </h2>
+            <div class="slider__price">10.000₽</div>
+          </div>
+          <ul class="slider__list">
+            <li class="slider__item">
+              <span class="slider__question">Срок Действия </span><span class="slider__answer">30 дней</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Дневной доход</span><span class="slider__answer">5%</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Доход за период</span><span class="slider__answer">150%</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Время Работы</span><span class="slider__answer">7 дней в неделю</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Доступ в Закрытую Группу</span><span class="slider__answer">Да</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Вывод Прибыли</span><span class="slider__answer">Ежедневно, Без
+                ограничений</span>
+            </li>
+          </ul>
+          <button class="slider__btn">Начать инвестировать</button>
+        </div>
+        <div class="swiper-slide">
+          <img src="img/slider__back.png" alt="" class="slider__back" />
+          <img src="img/slider__back-mobile.png" alt="" class="slider__back mobile" />
+          <div class="slider__start">
+            <h2 class="slider__title">
+              <img src="img/slider-img.png" alt="" />
+              Кибер Пакет
+            </h2>
+            <div class="slider__price">10.000₽</div>
+          </div>
+          <ul class="slider__list">
+            <li class="slider__item">
+              <span class="slider__question">Срок Действия </span><span class="slider__answer">30 дней</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Дневной доход</span><span class="slider__answer">5%</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Доход за период</span><span class="slider__answer">150%</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Время Работы</span><span class="slider__answer">7 дней в неделю</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Доступ в Закрытую Группу</span><span class="slider__answer">Да</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Вывод Прибыли</span><span class="slider__answer">Ежедневно, Без
+                ограничений</span>
+            </li>
+          </ul>
+          <button class="slider__btn">Начать инвестировать</button>
+        </div>
+        <div class="swiper-slide">
+          <img src="img/slider__back.png" alt="" class="slider__back" />
+          <img src="img/slider__back-mobile.png" alt="" class="slider__back mobile" />
+          <div class="slider__start">
+            <h2 class="slider__title">
+              <img src="img/slider-img.png" alt="" />
+              Кибер Пакет
+            </h2>
+            <div class="slider__price">10.000₽</div>
+          </div>
+          <ul class="slider__list">
+            <li class="slider__item">
+              <span class="slider__question">Срок Действия </span><span class="slider__answer">30 дней</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Дневной доход</span><span class="slider__answer">5%</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Доход за период</span><span class="slider__answer">150%</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Время Работы</span><span class="slider__answer">7 дней в неделю</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Доступ в Закрытую Группу</span><span class="slider__answer">Да</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Вывод Прибыли</span><span class="slider__answer">Ежедневно, Без
+                ограничений</span>
+            </li>
+          </ul>
+          <button class="slider__btn">Начать инвестировать</button>
+        </div>
+        <div class="swiper-slide">
+          <img src="img/slider__back.png" alt="" class="slider__back" />
+          <img src="img/slider__back-mobile.png" alt="" class="slider__back mobile" />
+          <div class="slider__start">
+            <h2 class="slider__title">
+              <img src="img/slider-img.png" alt="" />
+              Кибер Пакет
+            </h2>
+            <div class="slider__price">10.000₽</div>
+          </div>
+          <ul class="slider__list">
+            <li class="slider__item">
+              <span class="slider__question">Срок Действия </span><span class="slider__answer">30 дней</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Дневной доход</span><span class="slider__answer">5%</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Доход за период</span><span class="slider__answer">150%</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Время Работы</span><span class="slider__answer">7 дней в неделю</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Доступ в Закрытую Группу</span><span class="slider__answer">Да</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Вывод Прибыли</span><span class="slider__answer">Ежедневно, Без
+                ограничений</span>
+            </li>
+          </ul>
+          <button class="slider__btn">Начать инвестировать</button>
+        </div>
+        <div class="swiper-slide">
+          <img src="img/slider__back.png" alt="" class="slider__back" />
+          <img src="img/slider__back-mobile.png" alt="" class="slider__back mobile" />
+          <div class="slider__start">
+            <h2 class="slider__title">
+              <img src="img/slider-img.png" alt="" />
+              Кибер Пакет
+            </h2>
+            <div class="slider__price">10.000₽</div>
+          </div>
+          <ul class="slider__list">
+            <li class="slider__item">
+              <span class="slider__question">Срок Действия </span><span class="slider__answer">30 дней</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Дневной доход</span><span class="slider__answer">5%</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Доход за период</span><span class="slider__answer">150%</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Время Работы</span><span class="slider__answer">7 дней в неделю</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Доступ в Закрытую Группу</span><span class="slider__answer">Да</span>
+            </li>
+            <li class="slider__item">
+              <span class="slider__question">Вывод Прибыли</span><span class="slider__answer">Ежедневно, Без
+                ограничений</span>
+            </li>
+          </ul>
+          <button class="slider__btn">Начать инвестировать</button>
+        </div>
+      </div>
+      <div class="pagination">
+
+        <div class="pagination__box">
+
+          <div class="swiper-button-prev swiper__arrow">
+            <img src="img/swiper__arrow.svg" alt="" class="swiper__arrowL">
+          </div>
+
+          <div class="swiper-pagination invest__pagination"></div>
+          <div class="swiper-button-next swiper__arrow">
+            <img src="img/swiper__arrow.svg" alt="" class="swiper__arrowR">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section class="founder">
+    <img src="img/founder__back.png" alt="" class="founder__back" />
+    <div class="container founder__inner">
+      <div class="founder__center">
+        <!-- <img src="img/founder__overlay1.png" alt="" class="founder__back1"> -->
+        <img src="img/founder__overlay.png" alt="" class="founder__back2" />
+        <img src="img/founder__overlay-back.png" alt="" class="founder__back3" />
+
+        <div class="founder__content">
+          <img src="img/founder__man.png" alt="" class="founder__man" />
+        </div>
+
+        <div class="founder__descr">
+          <img src="img/founder__logo.svg" alt="" class="founder__logo" />
+          <h2 class="founder__title">Основатель</h2>
+          <h2 class="founder__name">Филимонов Константин</h2>
+          <p class="founder__text one">
+            Константин является выдающимся трейдером с опытом более 8 лет.
+            Свой первый миллион долларов Константин заработал с помощью
+            трейдинга криптовалют в 2017 году во время бычьего рынка.
+          </p>
+          <p class="founder__text">
+            В 2019 году Константин посетил конференцию Token2049, где
+            познакомился с азиатской командой в сфере разработки прикладного
+            ИИ, осознав глобальный потенциал технологии Константин
+            незамедлительно обьединился с командой для разработки алгоритмов
+            которые было бы возможно эффективно применять на рынке
+            криптовалют. Собственно, они и легли в фундамент CYBER AI.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="plan">
+    <img src="img/plan__back.png" alt="" class="plan__back" />
+    <img src="img/plan__back-mobile.png" alt="" class="plan__back mobile" />
+    <div class="container">
+      <div class="plan__descr">
+        <h2 class="plan__title">план стратегического развития</h2>
+        <button class="plan__btn">расширенный план</button>
+      </div>
+      <ul class="plan__list">
+        <li class="plan__item">
+          <ul class="plan__item-list">
+            <li class="plan__item-text">Знакомство ключевых людей команды на Token2049 в Сингапуре </li>
+            <li class="plan__item-text">
+              Глубинное изучение возможностей интеграции технологии искусственного интеллекта и блокчейна
+            </li>
+            <li class="plan__item-text">
+              Начала разработки высоко - частотного алгоритма для трейдинга
+            </li>
+            <li class="plan__item-text">Расширение команды специалистов по искусственному интеллекту </li>
+            <li class="plan__item-text">Проведения альфа- тестирований алгоритма, в будущем ставшим основой Cyber Trade
+            </li>
+            <li class="plan__item-text">Расширение команды трейдеров под руководством Константина, освоение новых
+              торговых стратегий</li>
+          </ul>
+          <button class="plan__item-btn">2019-2021</button>
+        </li>
+        <li class="plan__item">
+          <ul class="plan__item-list">
+
+            <li class="plan__item-text">
+              Алгоритм впервые показывает профицитный месяц, в ноябре 2022 года удалось зафиксировать прибыль в размере
+              8.05%
+            </li>
+            <li class="plan__item-text">
+              Начало разработки Cyber Mate
+            </li>
+            <li class="plan__item-text">Альфа тестирование Cyber Analytica</li>
+          </ul>
+          <button class="plan__item-btn">2022</button>
+        </li>
+        <li class="plan__item">
+          <ul class="plan__item-list">
+            <li class="plan__item-text">Получение среднемесячной прибыли в 619% за квартал
+              Альфа тестирование Cyber Mate </li>
+            <li class="plan__item-text">
+              Закрытое бета тестирование Cyber Analytica
+            </li>
+            <li class="plan__item-text">
+              Начало разработки Cyber Safe и Cyber Pay
+            </li>
+
+          </ul>
+          <button class="plan__item-btn">Кв2 2023</button>
+        </li>
+        <li class="plan__item">
+          <button class="plan__item-btn">Кв3 2023</button>
+          <ul class="plan__item-list">
+            <li class="plan__item-text">Запуск веб-платформы cyber-ai.ai
+            </li>
+            <li class="plan__item-text">
+              Регистрация компании в Великобритании с уставным капиталом в 1.000.000 долларов США
+            </li>
+            <li class="plan__item-text">
+              Онбординг первых внешних инвесторов в Cyber Trade
+            </li>
+            <li class="plan__item-text">Гранд Розыгрыш Mercedes G63 AMG и 100.000$ в токене Cyber AI </li>
+            <li class="plan__item-text">Бета Тестирования Cyber Mate </li>
+          </ul>
+        </li>
+        <li class="plan__item">
+          <button class="plan__item-btn">Кв4 2023</button>
+          <ul class="plan__item-list">
+            <li class="plan__item-text">Альфа Тестирование Cyber Safe и Cyber Pay </li>
+            <li class="plan__item-text">
+              Гранд Мероприятие Cyber AI в Дубай
+            </li>
+            <li class="plan__item-text">
+              Релиз Cyber Mate
+            </li>
+            <li class="plan__item-text">Масштабирование Cyber Trade до 10.000 пользователей</li>
+            <li class="plan__item-text">Запуск Cyber Academy</li>
+            <li class="plan__item-text">Бета Тестирование Cyber Safe и Cyber Pay </li>
+          </ul>
+        </li>
+        <li class="plan__item">
+          <button class="plan__item-btn">2024</button>
+          <ul class="plan__item-list">
+            <li class="plan__item-text">10.000 учеников в Cyber Academy </li>
+            <li class="plan__item-text">
+              Листинг токена Cyber AI на Тир-1 биржах
+            </li>
+            <li class="plan__item-text">
+              Расширение команды разработки до 50 человек
+            </li>
+            <li class="plan__item-text">Открытие офиса в Дубай и Гонг Конге </li>
+            <li class="plan__item-text">Релиз Cyber Appалгор</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- <section class="calculator">
+      <img src="img/1.png" alt="" class="calculator__back" />
+      <img
+        src="img/calculator__back0-mobile.png"
+        alt=""
+        class="calculator__back mobile"
+      />
+      <img
+        src="img/calculator__back-mobile.png"
+        alt=""
+        class="calculator__back-overlay mobile"
+      />
+      <div class="container">
+        <div class="calculator__content">
+          <img
+            src="img/calculator__content.png"
+            alt=""
+            class="calculator__content-img"
+          />
+          <h3 class="calculator__title">Калькулятор доходности</h3>
+          <h5 class="calculator__subtitle">
+            Благодаря Искуственному Интеллекту, Cyber AI предоставляет
+            уникальные возможности для построение капитала. Начните менять свою
+            жизнь уже сегодня!
+          </h5>
+          <div class="calculator__count">
+            <p class="calculator__count-text">Укажите сумму вашей инвестиции</p>
+            <div class="calculator__count-box">
+              <input
+                type="text"
+                disabled
+                class="calculator__count-input"
+                placeholder="1,000₽"
+                min="0"
+                max="100"
+              />
+              <p class="calculator__count-sum">Сумма депозита</p>
+              <img
+                src="img/calculator__count.png"
+                alt=""
+                class="calculator__count-img"
+              />
+              <img
+                src="img/calculator__count-img--mobile.png"
+                alt=""
+                class="calculator__count-img mobile"
+              />
+              <button class="calculator__count-btn">
+                Рассчитать
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="19"
+                  height="18"
+                  viewBox="0 0 19 18"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_213_1591)">
+                    <path
+                      d="M2.08203 8.47266H7.39062C8.26299 8.47266 8.97266 7.76299 8.97266 6.89062V1.58203C8.97266 0.709664 8.26299 0 7.39062 0H2.08203C1.20966 0 0.5 0.709664 0.5 1.58203V6.89062C0.5 7.76299 1.20966 8.47266 2.08203 8.47266ZM3.17188 3.72656H4.22656V2.67188C4.22656 2.38039 4.46243 2.14453 4.75391 2.14453C5.04539 2.14453 5.28125 2.38039 5.28125 2.67188V3.72656H6.33594C6.62742 3.72656 6.86328 3.96243 6.86328 4.25391C6.86328 4.54539 6.62742 4.78125 6.33594 4.78125H5.28125V5.83594C5.28125 6.12742 5.04539 6.36328 4.75391 6.36328C4.46243 6.36328 4.22656 6.12742 4.22656 5.83594V4.78125H3.17188C2.88039 4.78125 2.64453 4.54539 2.64453 4.25391C2.64453 3.96243 2.88039 3.72656 3.17188 3.72656Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M16.9219 0H11.6133C10.7409 0 10.0312 0.709664 10.0312 1.58203V6.89062C10.0312 7.76299 10.7409 8.47266 11.6133 8.47266H16.9219C17.7942 8.47266 18.5039 7.76299 18.5039 6.89062V1.58203C18.5039 0.709664 17.7942 0 16.9219 0ZM15.8672 4.78125H12.668C12.3765 4.78125 12.1406 4.54539 12.1406 4.25391C12.1406 3.96243 12.3765 3.72656 12.668 3.72656H15.8672C16.1587 3.72656 16.3945 3.96243 16.3945 4.25391C16.3945 4.54539 16.1587 4.78125 15.8672 4.78125Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M16.9219 9.52734H11.6133C10.7409 9.52734 10.0312 10.237 10.0312 11.1094V16.418C10.0312 17.2903 10.7409 18 11.6133 18H16.9219C17.7942 18 18.5039 17.2903 18.5039 16.418V11.1094C18.5039 10.237 17.7942 9.52734 16.9219 9.52734ZM15.8672 15.3281H12.668C12.3765 15.3281 12.1406 15.0923 12.1406 14.8008C12.1406 14.5093 12.3765 14.2734 12.668 14.2734H15.8672C16.1587 14.2734 16.3945 14.5093 16.3945 14.8008C16.3945 15.0923 16.1587 15.3281 15.8672 15.3281ZM15.8672 13.2188H12.668C12.3765 13.2188 12.1406 12.9829 12.1406 12.6914C12.1406 12.3999 12.3765 12.1641 12.668 12.1641H15.8672C16.1587 12.1641 16.3945 12.3999 16.3945 12.6914C16.3945 12.9829 16.1587 13.2188 15.8672 13.2188Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M8.97266 16.418V11.1094C8.97266 10.237 8.26299 9.52734 7.39062 9.52734H2.08203C1.20966 9.52734 0.5 10.237 0.5 11.1094V16.418C0.5 17.2903 1.20966 18 2.08203 18H7.39062C8.26299 18 8.97266 17.2903 8.97266 16.418ZM6.2453 14.4918C6.45128 14.6978 6.45128 15.0315 6.2453 15.2375C6.03932 15.4435 5.70559 15.4435 5.49961 15.2375L4.75391 14.4918L4.00821 15.2375C3.80223 15.4435 3.46849 15.4435 3.26251 15.2375C3.05653 15.0315 3.05653 14.6978 3.26251 14.4918L4.00821 13.7461L3.26251 13.0004C3.05653 12.7944 3.05653 12.4607 3.26251 12.2547C3.46849 12.0487 3.80223 12.0487 4.00821 12.2547L4.75391 13.0004L5.49961 12.2547C5.70559 12.0487 6.03932 12.0487 6.2453 12.2547C6.45128 12.4607 6.45128 12.7944 6.2453 13.0004L5.49961 13.7461L6.2453 14.4918Z"
+                      fill="white"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_213_1591">
+                      <rect
+                        width="18"
+                        height="18"
+                        fill="white"
+                        transform="translate(0.5)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <input type="range" id="money" name="money" min="100" max="1000000" value="180000">
+          <img
+            src="img/calculator__range.png"
+            alt=""
+            class="calculator__range"
+          />
+          <h4 class="calculator__calc">Расчет доходности вашего депозита</h4>
+          <ul class="calculator__list">
+            <li class="calculator__item">
+              <img
+                src="img/calculator__item-back.png"
+                alt=""
+                class="calculator__item-back"
+              />
+              <img
+                src="img/calculator__item-back--mobile.svg"
+                alt=""
+                class="calculator__item-back mobile"
+              />
+              <div class="calculator__day">1 день</div>
+              <h5 class="calculator__item-title">Доход</h5>
+              <span class="calculator__item-num">256₽</span>
+            </li>
+            <li class="calculator__item">
+              <img
+                src="img/calculator__item-back.png"
+                alt=""
+                class="calculator__item-back"
+              />
+              <img
+                src="img/calculator__item-back--mobile.svg"
+                alt=""
+                class="calculator__item-back mobile"
+              />
+
+              <div class="calculator__day">7 дней</div>
+              <h5 class="calculator__item-title">Доход</h5>
+              <span class="calculator__item-num">834₽</span>
+            </li>
+            <li class="calculator__item">
+              <img
+                src="img/calculator__item-back.png"
+                alt=""
+                class="calculator__item-back"
+              />
+              <img
+                src="img/calculator__item-back--mobile.svg"
+                alt=""
+                class="calculator__item-back mobile"
+              />
+
+              <div class="calculator__day">21 день</div>
+              <h5 class="calculator__item-title">Доход</h5>
+              <span class="calculator__item-num">1,789₽</span>
+            </li>
+            <li class="calculator__item">
+              <img
+                src="img/calculator__item-back4.png"
+                alt=""
+                class="calculator__item-back"
+              />
+              <img
+                src="img/calculator__item-back4--mobile.svg"
+                alt=""
+                class="calculator__item-back mobile"
+              />
+
+              <div class="calculator__day">30 дней</div>
+              <h5 class="calculator__item-title">Доход</h5>
+              <span class="calculator__item-num">5,678₽</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section> -->
+
+  <section class="faq">
+    <img src="img/FAQ__back.png" alt="" class="faq__back" />
+    <img src="img/FAQ__back-mobile.png" alt="" class="faq__back mobile" />
+
+    <div class="container faq__inner">
+      <div class="faq__descr">
+        <h3 class="faq__title">часто задаваемые вопросы</h3>
+        <div class="faq__btns">
+          <button class="faq__btn active">Основные Вопросы</button>
+          <!-- <button class="faq__btn">Технические Вопросы</button
+            ><button class="faq__btn">Маркетинговые Вопросы</button> -->
+        </div>
+        <ul class="faq__list active">
+          <li class="faq__item">
+            <div class="faq__item-box">
+              Чем занимается CYBER AI?
+              <svg class="faq__item-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none">
+                <path d="M6 12H18" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 18V6" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="faq__item-info">
+              Команда CYBER AI занимается разработкой продуктов на основе искуственного интеллекта.
+            </div>
+          </li>
+          <li class="faq__item">
+            <div class="faq__item-box">
+              Как CYBER AI генерирует прибыль?
+              <svg class="faq__item-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none">
+                <path d="M6 12H18" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 18V6" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="faq__item-info">
+              CYBER AI генерирует прибыль с помощью Cyber Trade в котором используется высоко-частотный торговые
+              стратегии в совместимости с совершенным искуственным интеллектом, что в синергии позволяет генерировать
+              прибыль выше рыночных стандартов.
+            </div>
+          </li>
+          <!-- <li class="faq__item">
+              <div class="faq__item-box">
+                Как мне стать инвестором на платфоре CYBER AI?
+                <svg
+                  class="faq__item-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M6 12H18"
+                    stroke="#FFE500"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 18V6"
+                    stroke="#FFE500"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div class="faq__item-info">
+                В текущий момент времени партнерская программа и академия CYBER AI находятся в стадии разработки.
+              </div>
+            </li> -->
+          <li class="faq__item">
+            <div class="faq__item-box">
+              В CYBER AI есть партнерская программа?
+              <svg class="faq__item-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none">
+                <path d="M6 12H18" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 18V6" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="faq__item-info">
+              В текущий момент времени партнерская программа и академия CYBER AI находятся в стадии разработки.
+            </div>
+          </li>
+          <li class="faq__item">
+            <div class="faq__item-box">
+              Как часто начисляется прибыль?
+              <svg class="faq__item-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none">
+                <path d="M6 12H18" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 18V6" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="faq__item-info">
+              Прибыль начисляется ежедневно в зависимости от выбранного предложения в CYBER Trade.
+            </div>
+          </li>
+          <li class="faq__item">
+            <div class="faq__item-box">
+              Могу ли я вывести средства в любое время?
+              <svg class="faq__item-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none">
+                <path d="M6 12H18" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 18V6" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="faq__item-info">
+              Вы можете вывести средства из личного кабинета в любое время, депозит в одно из направлений компаний вы
+              можете вывести по истечению срока депозита.
+            </div>
+          </li>
+        </ul>
+        <ul class="faq__list">
+          <li class="faq__item">
+            <div class="faq__item-box">
+              Чем занимается CYBER AI?
+              <svg class="faq__item-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none">
+                <path d="M6 12H18" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 18V6" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="faq__item-info">
+              Для того что бы стать инвестором на платформе cyber-ai.ai
+              необходимо: Зарегестрироваться. Создайте учетную запись на
+              платформе и предоставьте необходимую информацию, включая ваши
+              личные данные и платежные реквизиты. Выбрать вариант
+              инвестирования. Изучите варианты инвестирования, доступные на
+              платформе, и выберите тот, который соответствует вашим
+              инвестиционным целям и уровню риска. Пополнить счет. Переведите
+              средства с вашего банковского счета или других доступных
+              источников на ваш инвестиционный счет на платформе. Стать
+              Инвестором. Как только ваш счет будет пополнен, вы можете
+              выбрать вариант инвестирования и вложить ваши средства.
+            </div>
+          </li>
+          <li class="faq__item">
+            <div class="faq__item-box">
+              Как CYBER AI генерирует прибыль?
+              <svg class="faq__item-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none">
+                <path d="M6 12H18" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 18V6" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="faq__item-info">
+              Для того что бы стать инвестором на платформе cyber-ai.ai
+              необходимо: Зарегестрироваться. Создайте учетную запись на
+              платформе и предоставьте необходимую информацию, включая ваши
+              личные данные и платежные реквизиты. Выбрать вариант
+              инвестирования. Изучите варианты инвестирования, доступные на
+              платформе, и выберите тот, который соответствует вашим
+              инвестиционным целям и уровню риска. Пополнить счет. Переведите
+              средства с вашего банковского счета или других доступных
+              источников на ваш инвестиционный счет на платформе. Стать
+              Инвестором. Как только ваш счет будет пополнен, вы можете
+              выбрать вариант инвестирования и вложить ваши средства.
+            </div>
+          </li>
+          <li class="faq__item">
+            <div class="faq__item-box">
+              Как мне стать инвестором на платфоре CYBER AI?
+              <svg class="faq__item-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none">
+                <path d="M6 12H18" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 18V6" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="faq__item-info">
+              Для того что бы стать инвестором на платофрме cyber-ai.ai
+              необходимо: Зарегестрироваться. Создайте учетную запись на
+              платформе и предоставьте необходимую информацию, включая ваши
+              личные данные и платежные реквизиты. Выбрать вариант
+              инвестирования. Изучите варианты инвестирования, доступные на
+              платформе, и выберите тот, который соответствует вашим
+              инвестиционным целям и уровню риска. Пополнить счет. Переведите
+              средства с вашего банковского счета или других доступных
+              источников на ваш инвестиционный счет на платформе. Стать
+              Инвестором. Как только ваш счет будет пополнен, вы можете
+              выбрать вариант инвестирования и вложить ваши средства.
+            </div>
+          </li>
+        </ul>
+        <ul class="faq__list">
+          <li class="faq__item">
+            <div class="faq__item-box">
+              В CYBER AI есть партнерская программа?
+              <svg class="faq__item-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none">
+                <path d="M6 12H18" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 18V6" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="faq__item-info">
+              Для того что бы стать инвестором на платофрме cyber-ai.ai
+              необходимо: Зарегестрироваться. Создайте учетную запись на
+              платформе и предоставьте необходимую информацию, включая ваши
+              личные данные и платежные реквизиты. Выбрать вариант
+              инвестирования. Изучите варианты инвестирования, доступные на
+              платформе, и выберите тот, который соответствует вашим
+              инвестиционным целям и уровню риска. Пополнить счет. Переведите
+              средства с вашего банковского счета или других доступных
+              источников на ваш инвестиционный счет на платформе. Стать
+              Инвестором. Как только ваш счет будет пополнен, вы можете
+              выбрать вариант инвестирования и вложить ваши средства.
+            </div>
+          </li>
+          <li class="faq__item">
+            <div class="faq__item-box">
+              Как часто начисляется прибыль?
+              <svg class="faq__item-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none">
+                <path d="M6 12H18" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 18V6" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="faq__item-info">
+              Для того что бы стать инвестором на платформе cyber-ai.ai
+              необходимо: Зарегестрироваться. Создайте учетную запись на
+              платформе и предоставьте необходимую информацию, включая ваши
+              личные данные и платежные реквизиты. Выбрать вариант
+              инвестирования. Изучите варианты инвестирования, доступные на
+              платформе, и выберите тот, который соответствует вашим
+              инвестиционным целям и уровню риска. Пополнить счет. Переведите
+              средства с вашего банковского счета или других доступных
+              источников на ваш инвестиционный счет на платформе. Стать
+              Инвестором. Как только ваш счет будет пополнен, вы можете
+              выбрать вариант инвестирования и вложить ваши средства.
+            </div>
+          </li>
+          <li class="faq__item">
+            <div class="faq__item-box">
+              Могу ли я вывести средства в любое время?
+              <svg class="faq__item-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none">
+                <path d="M6 12H18" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 18V6" stroke="#FFE500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="faq__item-info">
+              Для того что бы стать инвестором на платформе cyber-ai.ai
+              необходимо: Зарегестрироваться. Создайте учетную запись на
+              платформе и предоставьте необходимую информацию, включая ваши
+              личные данные и платежные реквизиты. Выбрать вариант
+              инвестирования. Изучите варианты инвестирования, доступные на
+              платформе, и выберите тот, который соответствует вашим
+              инвестиционным целям и уровню риска. Пополнить счет. Переведите
+              средства с вашего банковского счета или других доступных
+              источников на ваш инвестиционный счет на платформе. Стать
+              Инвестором. Как только ваш счет будет пополнен, вы можете
+              выбрать вариант инвестирования и вложить ваши средства.
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="faq__content">
+        <img src="img/faq__robot.png" alt="" class="faq__content-img" />
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <img src="img/footer__back.png" alt="" class="footer__back" />
+    <div class="container">
+      <div class="footer__box">
+        <a href="/" class="logo">
+          <img src="img/footer__logo.svg" alt="" />
+        </a>
+        <h3 class="footer__title">Станьте частью нашего сообщества</h3>
+        <h5 class="footer__subtitle">
+          Cyber AI в социальных сетях. <br />Подпишитесь что бы быть в курсе
+          последних новостей
+        </h5>
+        <div class="footer__soc">
+          <a href="#" class="footer__link"><img src="img/Facebook.svg" alt="" class="footer__soc-icon" /></a><a href="#"
+            class="footer__link"><img src="img/Twitter.svg" alt="" class="footer__soc-icon" /></a><a href="#"
+            class="footer__link"><img src="img/Instagram.svg" alt="" class="footer__soc-icon" /></a><a href="#"
+            class="footer__link"><img src="img/LinkedIn.svg" alt="" class="footer__soc-icon" /></a><a href="#"
+            class="footer__link"><img src="img/Telegram.svg" alt="" class="footer__soc-icon" /></a><a href="#"
+            class="footer__link"><img src="img/YouTube.svg" alt="" class="footer__soc-icon" /></a>
+        </div>
+        <a href="mailto:contact_us@cyber-ai.ai" class="footer__mail">contact_us@cyber-ai.ai</a>
+        <span class="copyrights">
+          © 2023 CyberAi Inc. All rights reserved
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/swiper.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
