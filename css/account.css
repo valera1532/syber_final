@@ -2093,7 +2093,7 @@ body {
     align-items: center;
 }
 
-.review__deposit-token__fone {
+. {
 
     margin: 0 auto;
     overflow: hidden;
@@ -3104,10 +3104,21 @@ body {
 }
 
 @media (max-width:500px) {
-    .review__deposit-token__fone {
+    .review__top {
         overflow: hidden;
-        width: calc(100% - 20px);
+    }
 
+    .review__deposit-token__fone {
+        top: -10px;
+        left: 0px;
+        overflow: hidden;
+        width: 100%;
+
+    }
+
+    .review__deposit-token__fone img {
+        width: 100%;
+        object-fit: cover;
     }
 
 
